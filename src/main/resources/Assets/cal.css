@@ -1,0 +1,18 @@
+.text-area {
+    -fx-background-color: #F5F5F5;
+    -fx-font-size: 20px;
+    -fx-border-width: 5px;
+    -fx-border-style: solid;
+    -fx-border-color:   #1F313F;
+    -fx-padding: 0;
+    }   
+    
+.button:hover{
+    -fx-background-color: #245072;
+    -fx-text-fill: #ffffff; 
+    -fx-font-size: 20px; 
+    -fx-border-color: #1F313F;
+    -fx-border-width: 1px;
+    
+    }
+    

@@ -1,0 +1,29 @@
+.line-chart {
+    -fx-border-color: black;
+    -fx-border-style: solid;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px
+}
+
+
+.TextField{
+    -fx-border-color: black;
+    -fx-border-style: solid;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px
+}
+
+.button{
+    -fx-border-color: black;
+    -fx-border-style: solid;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-background-color: white;
+
+}
+
+.button:hover{
+    -fx-border-color: black;
+    -fx-border-width: 3px;
+
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="aux" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="633.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.minerva.EXIT">
+    <children>
+        <ImageView fitHeight="550.0" fitWidth="500.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" VBox.vgrow="ALWAYS">
+            <image>
+                <Image url="@Minerva.png" />
+            </image></ImageView>
+        <Label maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefWidth="600.0" text="     © Artur / Alexandre / David">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+      <Label text="     " />
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="100.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>

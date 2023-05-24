@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="470.0" prefWidth="546.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label text="Enter function expression:" />
+        <TextField fx:id="functionInput" prefHeight="26.0" prefWidth="478.0" promptText="e.g., 2 * x + 1" />
+        <Button onAction="#plotFunction" text="Plot" />
+        <LineChart fx:id="lineChart" prefHeight="400.0" prefWidth="546.0">
+            <xAxis>
+                <NumberAxis />
+            </xAxis>
+            <yAxis>
+                <NumberAxis />
+            </yAxis>
+        </LineChart>
+    </children>
+</VBox>

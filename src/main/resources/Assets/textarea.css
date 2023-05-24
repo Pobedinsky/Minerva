@@ -1,0 +1,38 @@
+
+
+
+.text-area {
+-fx-background-color: transparent;
+-fx-text-fill: #F5F5F5;
+-fx-font-size: 20px;
+-fx-border-width: 2px;
+-fx-border-style: solid;
+-fx-border-color: orange;
+-fx-padding: 0;
+}   
+
+.text-area .content {
+    -fx-background-color:  #161616 ;
+}
+
+
+.button {
+    -fx-background-color: #161616;
+    -fx-text-fill: #F5F5F5; 
+    -fx-font-size: 14px; 
+    -fx-border-color: orange;
+    -fx-border-width: 2px;
+}
+
+.pane{
+    -fx-background-image: url("python_logo_1.png");
+}
+
+.button:hover{
+    -fx-background-color: #f5b520;
+    -fx-text-fill: #ffffff; 
+    -fx-font-size: 14px; 
+    -fx-border-color: orange;
+    -fx-border-width: 2px;
+
+}

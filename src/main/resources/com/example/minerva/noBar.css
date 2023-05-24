@@ -1,0 +1,16 @@
+/* Set the title bar background to transparent */
+.root .title-bar {
+    -fx-background-color: transparent;
+}
+
+/* Set the title text color to transparent */
+.root .title-bar .title {
+    -fx-text-fill: transparent;
+}
+
+/* Set the window controls color to transparent */
+.root .title-bar .window-minimize-button,
+.root .title-bar .window-maximize-button,
+.root .title-bar .window-close-button {
+    -fx-background-color: transparent;
+}
