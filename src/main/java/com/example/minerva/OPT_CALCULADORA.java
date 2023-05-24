@@ -50,7 +50,7 @@ public class OPT_CALCULADORA {
         catch (NumberFormatException el){
         }
 
-        if(in.equals("abs") |in.equals("i") |in.equals("Ans") |in.equals("log(") |in.equals("ln(") |in.equals("log") |in.equals("ln")){
+        if(in.equals("abs") |in.equals("i") |in.equals("Ans") |in.equals("log(") |in.equals("ln(") |in.equals("log") |in.equals("ln") | in.equals("pi") | in.equals("3.14159265359") | in.equals("2.71828182846")){
             return true;
         }
         return false;
@@ -58,7 +58,7 @@ public class OPT_CALCULADORA {
 
 
     public boolean isMulti(String el){
-        return el.equals("cos") | el.equals("arccos") | el.equals("sin") | el.equals("arcsin") | el.equals("tan") | el.equals("arctan") | el.equals("ln") | el.equals("log") | el.equals("pi");
+        return el.equals("cos") | el.equals("arccos") | el.equals("sin") | el.equals("arcsin") | el.equals("tan") | el.equals("arctan") | el.equals("ln") | el.equals("log") ;
     }
 
 
