@@ -49,6 +49,7 @@ public class OPT_PY_INTREPRETER {
             while ((line = reader.readLine()) != null) {
                 output.append(line).append("\n");
             }
+            output = output.isEmpty()? new StringBuilder("Erro no código, por favor verifique se escreveu tudo de acordo com as normas de CPython") :output;
             outputTextArea.setText(output.toString());
         }
         catch(IOException e){

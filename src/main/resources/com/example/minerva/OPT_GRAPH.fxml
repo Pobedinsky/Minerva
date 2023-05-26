@@ -30,20 +30,20 @@
                 </LineChart>
                 <VBox alignment="CENTER" spacing="10.0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
                     <children>
-                  <Button stylesheets="@graph.css" mnemonicParsing="false" onAction="#plotFunction" prefHeight="42.0" prefWidth="90.0" text="Desenhar" />
-                        <Button stylesheets="@graph.css" mnemonicParsing="false" onAction="#download" prefHeight="42.0" prefWidth="90.0" text="Download" />
-                        <Button stylesheets="@graph.css" mnemonicParsing="false" onAction="#upload" prefHeight="42.0" prefWidth="90.0" text="Upload" />
-                        <Button stylesheets="@graph.css" mnemonicParsing="false" onAction="#returnToMenu" prefHeight="42.0" prefWidth="90.0" text="Voltar" />
+                  <Button mnemonicParsing="false" onAction="#plotFunction" prefHeight="42.0" prefWidth="90.0" stylesheets="@graph.css" text="Desenhar" />
+                        <Button mnemonicParsing="false" onAction="#download" prefHeight="42.0" prefWidth="90.0" stylesheets="@graph.css" text="Download" />
+                        <Button mnemonicParsing="false" onAction="#upload" prefHeight="42.0" prefWidth="90.0" stylesheets="@graph.css" text="Upload" />
+                        <Button mnemonicParsing="false" onAction="#returnToMenu" prefHeight="42.0" prefWidth="90.0" stylesheets="@graph.css" text="Voltar" />
                     </children>
                 </VBox>
-                <HBox alignment="CENTER" spacing="10.0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+                <HBox fx:id="inputField" alignment="CENTER" spacing="10.0" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
                     <children>
                         <Label text="f(x) : ">
                             <font>
                                 <Font name="System Italic" size="12.0" />
                             </font>
                         </Label>
-                        <TextField fx:id="functionInput" styleClass="TextField" stylesheets="@graph.css" onInputMethodTextChanged="#plotFunction" promptText="e.g x+1" />
+                        <TextField fx:id="functionInput" onInputMethodTextChanged="#plotFunction" promptText="e.g x+1" styleClass="TextField" stylesheets="@graph.css" />
                     </children>
                 </HBox>
             </children>

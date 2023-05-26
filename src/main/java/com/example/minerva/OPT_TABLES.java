@@ -47,11 +47,25 @@ public class OPT_TABLES implements Initializable {
             String funcao = func.getText();
             String minimo = min.getText();
             String maximo = max.getText();
+            int minValue = 0,maxValue =0;
 
-            int minValue = Integer.parseInt(minimo);
-            int maxValue = Integer.parseInt(maximo);
+            try {
+                minValue = Integer.parseInt(minimo);
+                maxValue = Integer.parseInt(maximo);
+            }catch (NumberFormatException e){
+                try {
+                    Minerva.newScene("ALERT_TABLES_NO_INPUT_PROVIDED.fxml", ALERTTABLESNOINPUTPROVIDED.height, ALERTTABLESNOINPUTPROVIDED.width );
+                } catch (IOException ex) {
+                    throw new RuntimeException(ex);
+                }
+            }
 
-            ObservableList<User> updatedList = parseFuncao(funcao, minValue, maxValue);
+            ObservableList<User> updatedList = null;
+            try {
+                updatedList = parseFuncao(funcao, minValue, maxValue);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
             tabela.setItems(updatedList);
         });
 
@@ -60,7 +74,7 @@ public class OPT_TABLES implements Initializable {
         });
     }
 
-    private ObservableList<User> parseFuncao(String funcao, int min, int max) {
+    private ObservableList<User> parseFuncao(String funcao, int min, int max) throws IOException {
         ObservableList<User> parsedList = FXCollections.observableArrayList();
         for (int i = min; i <= max; i++) {
             String replacedFunc = funcao.replace("x", String.valueOf(i));
@@ -71,14 +85,14 @@ public class OPT_TABLES implements Initializable {
         return parsedList;
     }
 
-    private double evaluateExpression(String expression) {
+    private double evaluateExpression(String expression) throws IOException {
         try {
             Expression exp = new ExpressionBuilder(expression)
                     .build();
             double result = exp.evaluate();
             return  result;
-        } catch (Exception e) {
-            e.printStackTrace();
+        } catch (IllegalArgumentException e) {
+            Minerva.newScene("NO_FUNCTION.fxml", NOFUCNTION.height, NOFUCNTION.width);
             return 0;
         }
     }

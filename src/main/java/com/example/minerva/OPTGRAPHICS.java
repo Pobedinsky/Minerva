@@ -44,7 +44,7 @@ public class OPTGRAPHICS {
     }
 
     @FXML
-    private void plotFunction() {
+    private void plotFunction() throws IOException {
 
         if (series != null) {
             lineChart.getData().remove(series);
@@ -62,7 +62,7 @@ public class OPTGRAPHICS {
                     .variable("x")
                     .build();
         } catch (IllegalArgumentException e) {
-            System.out.println("Invalid function expression: " + functionExpression);
+            Minerva.newScene("NO_FUNCTION.fxml", NOFUCNTION.height, NOFUCNTION.width);
             return;
         }
 

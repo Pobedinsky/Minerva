@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="aux" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="286.0" prefWidth="450.0" spacing="5.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.minerva.ALERTTABLESNOINPUTPROVIDED">
+   <children>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="350.0" spacing="5.0">
+         <children>
+            <ImageView fitHeight="50.0" fitWidth="75.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pngwing.com.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="AVISO ">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="50.0" fitWidth="75.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@pngwing.com.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <TextArea editable="false" prefHeight="196.0" prefWidth="450.0" stylesheets="@warning.css" text="Foi detetado um erro nos valores inseridos do intervalo&#10;de mapeamento da função.&#10;&#10;Por favor verifique que tenha posto correctamente&#10;os intervalos de mapeamento que se encontram abaixo do &#10;input da função">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextArea>
+      <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#returnBack" prefHeight="50.0" prefWidth="100.0" stylesheets="@warning.css" text="Fechar" />
+   </children>
+</VBox>
