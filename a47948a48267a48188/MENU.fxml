@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="393.0" prefWidth="700.0" spacing="20.0" style="-fx-background-color: wheat;" stylesheets="@menu.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.minerva.MenuController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <HBox alignment="CENTER" style="-fx-background-size: cover;" VBox.vgrow="ALWAYS">
+         <children>
+            <Pane id="OPT_CALC" onMouseClicked="#GO_TO_OPT_CALCULADORA" prefHeight="200.0" prefWidth="200.0" stylesheets="@menu.css" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+            </Pane>
+            <Pane id="graf" onMouseClicked="#GO_TO_OPT_GRAPHICS" prefHeight="200.0" prefWidth="200.0" stylesheets="@menu.css" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin></Pane>
+            <Pane id="py" onMouseClicked="#GO_TO_PYINTREPRETER" prefHeight="200.0" prefWidth="200.0" stylesheets="@menu.css" HBox.hgrow="ALWAYS" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="-5.0" top="25.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER" VBox.vgrow="ALWAYS">
+         <children>
+            <Pane id="eq" onMouseClicked="#GO_TO_OPT_EQUATIONS" prefHeight="200.0" prefWidth="200.0" stylesheets="@menu.css" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+            </Pane>
+            <Pane id="tbl" onMouseClicked="#GO_TO_OPT_TABELAS" prefHeight="200.0" prefWidth="200.0" stylesheets="@menu.css" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+            </Pane>
+            <Pane id="sair" onMouseClicked="#GO_TO_EXIT" prefHeight="200.0" prefWidth="200.0" stylesheets="@menu.css" HBox.hgrow="ALWAYS" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="-15.0" top="-5.0" />
+         </VBox.margin></HBox>
+   </children>
+</VBox>

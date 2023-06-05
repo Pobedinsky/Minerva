@@ -1,0 +1,37 @@
+
+.image img {
+    width: 200px; /* Defina a largura desejada */
+    height: auto; /* Mantenha a proporção original da imagem */
+    
+  }
+  
+#OPT_CALC{
+  -fx-background-image : url(AeT.png);
+  -fx-background-size : contain;
+  -fx-background-repeat : no-repeat;
+  }
+#graf{
+  -fx-background-image : url(graf.png);
+  -fx-background-size : contain;
+  -fx-background-repeat : no-repeat;
+}
+#py{
+  -fx-background-image : url(py.png);
+  -fx-background-size : contain;
+  -fx-background-repeat : no-repeat;
+}
+#sair{
+  -fx-background-image : url(Sair.png);
+  -fx-background-size : contain;
+  -fx-background-repeat : no-repeat;
+}
+#tbl{
+  -fx-background-image : url(Tbl.png);
+  -fx-background-size : contain;
+  -fx-background-repeat : no-repeat;
+}
+#eq{
+  -fx-background-image : url(Eq.png);
+  -fx-background-size : contain;
+  -fx-background-repeat : no-repeat;
+}

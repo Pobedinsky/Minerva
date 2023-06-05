@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="1000.0" minWidth="1000.0" prefHeight="1000.0" prefWidth="1000.0" style="-fx-background-color: #A8A6A6;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.minerva.OPT_EQS">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <Button layoutX="610.0" layoutY="460.0" mnemonicParsing="false" onAction="#appendText" prefHeight="30.0" prefWidth="300.0" style="-fx-background-color: whitesmoke;" text="y" GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.rowIndex="18">
+            <font>
+                <Font size="18.0" />
+            </font></Button>
+        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="1010.0" layoutY="460.0" mnemonicParsing="false" onAction="#returnToMenu" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" text="MENU" textFill="WHITE" GridPane.columnIndex="13" GridPane.columnSpan="2" GridPane.rowIndex="21" GridPane.rowSpan="2">
+            <font>
+                <Font size="18.0" />
+            </font></Button>
+        <Button layoutX="210.0" layoutY="460.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#appendText" prefHeight="30.0" prefWidth="193.0" style="-fx-background-color: whitesmoke;" text="^" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="16">
+            <font>
+                <Font size="18.0" />
+            </font></Button>
+        <Button layoutX="210.0" layoutY="520.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#appendText" prefHeight="30.0" prefWidth="206.0" style="-fx-background-color: whitesmoke;" text="z" GridPane.columnIndex="13" GridPane.columnSpan="2" GridPane.rowIndex="18">
+            <font>
+                <Font size="18.0" />
+            </font></Button>
+        <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#appendText" prefHeight="30.0" prefWidth="193.0" style="-fx-background-color: whitesmoke;" text="(" GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.rowIndex="16">
+            <font>
+                <Font size="18.0" />
+            </font></Button>
+        <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#appendText" prefHeight="30.0" prefWidth="193.0" style="-fx-background-color: whitesmoke;" text=")" GridPane.columnIndex="13" GridPane.columnSpan="2" GridPane.rowIndex="16">
+            <font>
+                <Font size="18.0" />
+            </font></Button>
+        <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#appendText" prefHeight="30.0" prefWidth="193.0" style="-fx-background-color: whitesmoke;" text="√" GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.rowIndex="16">
+            <font>
+                <Font size="18.0" />
+            </font></Button>
+        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="120.0" layoutY="568.0" mnemonicParsing="false" onAction="#clearinput" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" text="AC" textFill="WHITE" GridPane.columnIndex="13" GridPane.columnSpan="2" GridPane.rowIndex="24" GridPane.rowSpan="2">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="120.0" layoutY="568.0" mnemonicParsing="false" onAction="#clear" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" text="DEL" textFill="WHITE" GridPane.columnIndex="13" GridPane.columnSpan="2" GridPane.rowIndex="27" GridPane.rowSpan="2">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="120.0" layoutY="568.0" mnemonicParsing="false" onAction="#appendText" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: orange;" text="/" GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.rowIndex="21" GridPane.rowSpan="2">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Button>
+        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="786.0" layoutY="568.0" mnemonicParsing="false" onAction="#appendText" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: orange;" text="*" GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.rowIndex="24" GridPane.rowSpan="2">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Button>
+        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="120.0" layoutY="568.0" mnemonicParsing="false" onAction="#appendText" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" text="8" textFill="WHITE" GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.rowIndex="21" GridPane.rowSpan="2">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Button>
+        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="120.0" layoutY="568.0" mnemonicParsing="false" onAction="#appendText" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" text="9" textFill="WHITE" GridPane.columnIndex="7" GridPane.columnSpan="2" GridPane.rowIndex="21" GridPane.rowSpan="2">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Button>
+        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="450.0" layoutY="568.0" mnemonicParsing="false" onAction="#appendText" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" text="6" textFill="WHITE" GridPane.columnIndex="7" GridPane.columnSpan="2" GridPane.rowIndex="24" GridPane.rowSpan="2">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Button>
+        <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#appendText" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" text="7" textFill="WHITE" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="21" GridPane.rowSpan="2">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Button>
+        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="285.0" layoutY="568.0" mnemonicParsing="false" onAction="#appendText" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" text="5" textFill="WHITE" GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.rowIndex="24" GridPane.rowSpan="2">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Button>
+        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="120.0" layoutY="560.0" mnemonicParsing="false" onAction="#appendText" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" text="i" textFill="WHITE" GridPane.columnIndex="7" GridPane.columnSpan="2" GridPane.rowIndex="30" GridPane.rowSpan="2">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Button>
+        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="618.0" layoutY="568.0" mnemonicParsing="false" onAction="#appendText" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" text="4" textFill="WHITE" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="24" GridPane.rowSpan="2">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Button>
+        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="120.0" layoutY="560.0" mnemonicParsing="false" onAction="#appendText" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" text="." textFill="WHITE" GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.rowIndex="30" GridPane.rowSpan="2">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Button>
+        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="120.0" layoutY="560.0" mnemonicParsing="false" onAction="#appendText" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" text="3" textFill="WHITE" GridPane.columnIndex="7" GridPane.columnSpan="2" GridPane.rowIndex="27" GridPane.rowSpan="2">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Button>
+        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="618.0" layoutY="560.0" mnemonicParsing="false" onAction="#appendText" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" text="1" textFill="WHITE" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="27" GridPane.rowSpan="2">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Button>
+        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="120.0" layoutY="560.0" mnemonicParsing="false" onAction="#appendText" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" text="2" textFill="WHITE" GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.rowIndex="27" GridPane.rowSpan="2">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Button>
+        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="618.0" layoutY="560.0" mnemonicParsing="false" onAction="#appendText" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" text="0" textFill="WHITE" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="30" GridPane.rowSpan="2">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Button>
+        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="120.0" layoutY="560.0" mnemonicParsing="false" onAction="#appendText" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: orange;" text="-" GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.rowIndex="27" GridPane.rowSpan="2">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Button>
+        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="120.0" layoutY="560.0" mnemonicParsing="false" onAction="#appendText" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: orange;" text="+" GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.rowIndex="30" GridPane.rowSpan="2">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Button>
+        <TextField fx:id="in" alignment="TOP_LEFT" editable="false" prefHeight="106.0" prefWidth="396.0" promptText="e.g. x+1" GridPane.columnIndex="1" GridPane.columnSpan="14" GridPane.rowIndex="1" GridPane.rowSpan="4">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+        <Button layoutX="444.0" layoutY="476.0" mnemonicParsing="false" onAction="#findZeroes" prefHeight="30.0" prefWidth="300.0" style="-fx-background-color: whitesmoke;" text="Zeros" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="14">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button layoutX="444.0" layoutY="476.0" mnemonicParsing="false" onAction="#integrar" prefHeight="30.0" prefWidth="300.0" style="-fx-background-color: whitesmoke;" text="Integrar" GridPane.columnIndex="7" GridPane.columnSpan="2" GridPane.rowIndex="14">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button layoutX="444.0" layoutY="476.0" mnemonicParsing="false" onAction="#appendText" prefHeight="30.0" prefWidth="300.0" style="-fx-background-color: whitesmoke;" text="x" GridPane.columnIndex="7" GridPane.columnSpan="2" GridPane.rowIndex="18">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button layoutX="444.0" layoutY="476.0" mnemonicParsing="false" onAction="#appendText" prefHeight="30.0" prefWidth="300.0" style="-fx-background-color: whitesmoke;" text="a" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="18">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button layoutX="444.0" layoutY="476.0" mnemonicParsing="false" onAction="#appendText" prefHeight="30.0" prefWidth="300.0" style="-fx-background-color: whitesmoke;" text="𝞹" GridPane.columnIndex="7" GridPane.columnSpan="2" GridPane.rowIndex="16">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button layoutX="444.0" layoutY="476.0" mnemonicParsing="false" onAction="#derive" prefHeight="30.0" prefWidth="300.0" style="-fx-background-color: whitesmoke;" text="Derivar" GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.rowIndex="14">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button layoutX="444.0" layoutY="414.0" mnemonicParsing="false" onAction="#appendText" prefHeight="30.0" prefWidth="300.0" style="-fx-background-color: whitesmoke;" text="b" GridPane.columnIndex="4" GridPane.columnSpan="2" GridPane.rowIndex="18">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button layoutX="10.0" layoutY="8.0" mnemonicParsing="false" onAction="#download" prefHeight="30.0" prefWidth="300.0" style="-fx-background-color: whitesmoke;" text="Export" GridPane.columnIndex="13" GridPane.columnSpan="2" GridPane.rowIndex="14">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <Button layoutX="10.0" layoutY="8.0" mnemonicParsing="false" onAction="#upload" prefHeight="30.0" prefWidth="300.0" style="-fx-background-color: whitesmoke;" text="Import" GridPane.columnIndex="10" GridPane.columnSpan="2" GridPane.rowIndex="14">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <TextArea fx:id="out" editable="false" prefHeight="200.0" prefWidth="200.0" promptText="e.g. Derivada = 1" GridPane.columnIndex="1" GridPane.columnSpan="14" GridPane.rowIndex="6" GridPane.rowSpan="6">
+         <font>
+            <Font size="14.0" />
+         </font></TextArea>
+        <Button alignment="CENTER" contentDisplay="CENTER" layoutX="821.0" layoutY="830.0" mnemonicParsing="false" onAction="#askForHelp" prefHeight="98.0" prefWidth="253.0" style="-fx-background-color: black;" text="HELP" textFill="WHITE" GridPane.columnIndex="13" GridPane.columnSpan="2" GridPane.rowIndex="30" GridPane.rowSpan="2">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+    </children>
+</GridPane>
